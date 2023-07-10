@@ -1,0 +1,5 @@
+﻿  소스.c
+C:\Users\syj\Documents\동아리 PROJECT\알고리즘 스터디\9주차 문제\1699번_제곱수의 합\1699번_제곱수의 합\소스.c(16,24): warning C4013: 'min'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\syj\Documents\동아리 PROJECT\알고리즘 스터디\9주차 문제\1699번_제곱수의 합\1699번_제곱수의 합\소스.c(6,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+  1699번_제곱수의 합.vcxproj -> C:\Users\syj\Documents\동아리 PROJECT\알고리즘 스터디\9주차 문제\1699번_제곱수의 합\Debug\1699번_제곱수의 합.exe

@@ -1,0 +1,8 @@
+﻿  소스.c
+C:\Users\syj\Documents\동아리\알고리즘 스터디\7주차 문제\1940번_주몽\1940번_주몽\소스.c(8,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+C:\Users\syj\Documents\동아리\알고리즘 스터디\7주차 문제\1940번_주몽\1940번_주몽\소스.c(9,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+C:\Users\syj\Documents\동아리\알고리즘 스터디\7주차 문제\1940번_주몽\1940번_주몽\소스.c(12,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+  1940번_주몽.vcxproj -> C:\Users\syj\Documents\동아리\알고리즘 스터디\7주차 문제\1940번_주몽\Debug\1940번_주몽.exe

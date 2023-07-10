@@ -1,0 +1,51 @@
+<깃 다운로드>
+https://git-scm.com/
+cmd 창에서 git을 입력했을때 여러 명령어 옵션들이 나오면 다운로드 성공. 
+
+원하는 장소 아무데나 깃을 저장할 파일을 만든다.  ex) C:\test
+
+
+
+<Code Clear  주소>
+https://github.com/xet-a/CodeClear
+
+
+
+<깃에서 파일 복사하기(clone)>
+1) Code Clear 깃 주소(위 주소)에 들어가서 초록색 "Code"부분을 눌러 주소 복사
+2) 깃 저장소에 들어가서(C:\test) 주소부분 우클릭 해서 cmd창에 들어간다. 
+3) cmd에서 명령어 입력
+    $ git clone 아까복사한주소
+4) 그러면 test폴더에 .git이랑 README.md, Server 가 생성된다. 
+5) Server 폴더 안의 templates 폴더에서 프론트 작업.
+
+
+
+
+<변경 사항 깃에 저장방법 - 파일 받고(pull) 내보내기(push)>
+
+git add . (점) 또는
+git add *			변경 사항이 로컬 파일에만 추가된 상태
+
+git status			깃 상태 확인하기
+			(변경 내용이 하단에 뜬다)
+
+git comit -m "ex"		내 로컬 깃에만 변동사항이 적용됨.
+			(ex 저거는 이름 원하는 대로~)
+
+git push origin back	깃에 내보내기 
+
+
+git status			상태 다시 확인해보면 
+
+
+git pull origin back		깃에서 다시 가져오기
+
+
+git checkout front		이제 나는 프론트로 가겠다.
+	
+
+git branch		나의 현재 위치 확인하기
+			(branch가 현재 내가 가리키는 곳을 의미)
+
+

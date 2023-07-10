@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (1015번 수열 정렬.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  소스.c
+C:\Users\syj\Documents\동아리 PROJECT\알고리즘 스터디\6주차 문제\1015번_수열 정렬\1015번 수열 정렬\소스.c(5,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+C:\Users\syj\Documents\동아리 PROJECT\알고리즘 스터디\6주차 문제\1015번_수열 정렬\1015번 수열 정렬\소스.c(7,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+C:\Users\syj\Documents\동아리 PROJECT\알고리즘 스터디\6주차 문제\1015번_수열 정렬\1015번 수열 정렬\소스.c(4,20): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
+  1015번 수열 정렬.vcxproj -> C:\Users\syj\Documents\동아리 PROJECT\알고리즘 스터디\6주차 문제\1015번_수열 정렬\Debug\1015번_수열 정렬.exe

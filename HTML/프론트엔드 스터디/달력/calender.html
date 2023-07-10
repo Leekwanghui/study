@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캘린더</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="head" style="float: left;">
+            <p>To Do List</p>
+        </div>
+        <div id="menu" style="float:right;">
+            <ul>
+                <li><a href="calender.html">CALENDER</a></li>
+                <li><a href="index.html">main</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="main_board" style="width: auto;">
+        <div class="month">
+        <div class="nav" style="float: center">
+            <button class="prev" onclick="prevMonth()">&nbsp&lt;&nbsp</button>
+            <button class="today" onclick="goToday()"></button>
+            <button class="next" onclick="nextMonth()">&nbsp&gt;&nbsp</button>
+        </div>
+        <div class="days">
+            <div class="day">SUN</div>
+            <div class="day">MON</div>
+            <div class="day">TUES</div>
+            <div class="day">WED</div>
+            <div class="day">THUR</div>
+            <div class="day">FRI</div>
+            <div class="day">SAT</div>
+        </div>
+        <div class="dates">
+
+        </div>
+        </div>
+        <div class="checklist">
+            <table>
+                <tr>
+                    <th style="padding: 30px 0px 30px 0px;">오늘의 할일</th>
+                </tr>
+                <tr>
+                    <td style="padding: 30px;">
+                        <span style="float: left;">
+                            <input class="check" id="cb1" type="checkbox"><label for="cb1"></label>
+                            <span class="board">&nbsp내용</span>
+                        </span>                           
+                        <span style="float: right;">
+                            <button class="add" onclick="add()">+</button>
+                        </span>
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+        
+    </div>
+
+
+    <script src="calender.js"></script>
+</body>
+
+</html>

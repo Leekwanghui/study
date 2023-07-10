@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--weekly.html-->
+<html>
+
+<head>
+    <title>주간</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/css/weekly.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <div id="header"> 
+                <div id="head">
+                    <div class="year-month"></div>
+                </div>
+                <div id="nav">
+                    <button class="prev" onclick="prevMonth()">&lt;</button>
+                    <button class="next" onclick="nextMonth()">&gt;</button>
+                </div>
+            </div>
+
+
+            
+            <div id="board">
+                <div id="weekly">
+                    <table>
+                        <tr>
+                            <th>TO DO LIST</th>
+                            <th>MON</th>
+                            <th>TUES</th>
+                            <th>WED</th>
+                        </tr>
+                        <tr>
+                            <td>내용</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>THUR</th>
+                            <th>FRI</th>
+                            <th>SAT</th>
+                            <th style="color: rgb(207, 62, 62);">SUN</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>내용</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+
+            <script src="static/js/weekly.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

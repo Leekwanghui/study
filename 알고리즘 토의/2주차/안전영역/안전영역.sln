@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "안전영역", "안전영역\안전영역.vcxproj", "{ADDB2100-6F1D-4A44-83C7-14E6C080B17C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADDB2100-6F1D-4A44-83C7-14E6C080B17C}.Debug|x64.ActiveCfg = Debug|x64
+		{ADDB2100-6F1D-4A44-83C7-14E6C080B17C}.Debug|x64.Build.0 = Debug|x64
+		{ADDB2100-6F1D-4A44-83C7-14E6C080B17C}.Debug|x86.ActiveCfg = Debug|Win32
+		{ADDB2100-6F1D-4A44-83C7-14E6C080B17C}.Debug|x86.Build.0 = Debug|Win32
+		{ADDB2100-6F1D-4A44-83C7-14E6C080B17C}.Release|x64.ActiveCfg = Release|x64
+		{ADDB2100-6F1D-4A44-83C7-14E6C080B17C}.Release|x64.Build.0 = Release|x64
+		{ADDB2100-6F1D-4A44-83C7-14E6C080B17C}.Release|x86.ActiveCfg = Release|Win32
+		{ADDB2100-6F1D-4A44-83C7-14E6C080B17C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02D9108E-DD58-42F7-A210-90A9C1D4FC07}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,172 @@
+body {
+    background-color: #faefe9;
+    color: #4e3d3d;
+    align-items: center;
+    min-height: 100vh;
+}
+* {
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+
+.header{
+    width: auto;
+    height: 70px;
+    margin: 20px;
+}
+
+.head{ 
+    font-size: 40px;
+    line-height: 10px;    
+}
+
+.line{border: 1px solid #4e3d3d;}
+
+li{
+    list-style: none;
+}
+ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none;
+}
+
+#menu{
+    width: 250px;
+    height: 60px;
+    font-size: 14pt;
+}
+
+#menu ul li{
+  float: left;
+  width: 50%;
+  line-height: 100px;
+  text-align: center;
+  
+}
+
+a{
+    text-decoration-line:none;
+    color: #4e3d3d;
+}
+
+
+.main_board {
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    align-items: center;
+    justify-content: center
+}
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+  
+.days{
+    font-size: 24px;
+    display: flex;
+    margin: 25px 0 10px;
+    
+}
+
+.day {
+    width: calc(100% / 7);
+    text-align: center;
+}
+
+.dates {
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+  
+.date {
+    width: calc(100% / 7);
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #333333;
+}
+
+.day:nth-child(7n + 1),
+.date:nth-child(7n + 1) {
+  color: #D13E3E;
+}
+
+.day:nth-child(7n),
+.date:nth-child(7n) {
+  color: #396EE2;
+}
+
+.today {
+    position: relative;
+}
+  
+.today::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #ffda74de;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+}
+
+button{
+    background-color: #faefe9;
+    border: none;
+    color: #4e3d3d;
+    font-size: 30px;
+
+}
+
+.other {  opacity: .3;}
+
+
+table{
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid #4e3d3d6b;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 24px;
+}
+
+th, tr{
+    border: 1px solid #4e3d3d;
+}
+
+.list{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 400px;
+}
+
+.check{display: none;}
+
+input[type="checkbox"] + label {
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    background: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+input[type="checkbox"]:checked + label {
+    background:#a15c53;
+}

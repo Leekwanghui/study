@@ -1,0 +1,5 @@
+﻿  소스.c
+C:\Users\syj\Documents\동아리\알고리즘 토의\2주차\달팽이\달팽이\소스.c(11,39): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\syj\Documents\동아리\알고리즘 토의\2주차\달팽이\달팽이\소스.c(9,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+  달팽이.vcxproj -> C:\Users\syj\Documents\동아리\알고리즘 토의\2주차\달팽이\Debug\달팽이.exe
