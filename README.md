@@ -1,2 +1,2 @@
 # study
-c, html, css, javascript, 인공지능 개인 공부 기록
+c, 프론트엔드, 인공지능 스터디
